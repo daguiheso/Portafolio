@@ -1,0 +1,16 @@
+
+a{
+	/*background: red;*/
+	display: inline-block;
+}
+
+.ui-menu-bottom-line{
+	height:1px;
+	width:25px;
+	position:absolute;
+	left:0;
+	bottom:-1px;
+	background:red; 
+	/*#d82126*/
+	max-width:100%
+}
