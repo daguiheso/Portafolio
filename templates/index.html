@@ -3,30 +3,76 @@
 
 		<title>Portafolio</title>
 		<meta charset="UTF-8"/>
-		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,300,700,400' rel='stylesheet' type='text/css'>
+		<meta name="viewport" content="width=device-width, minimum-scale=1,maximum-scale=1">
+		<link href="http://fonts.googleapis.com/css?family=Arizonia" rel="stylesheet" type="text/css">
 		<link rel="stylesheet" type="text/css" href="../static/css/normalize.css">
 		<link rel="stylesheet" type="text/css" href="../static/css/estilos.css">
-
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+		<script src="../static/js/jquery.lettering.js"></script>
 	</head>
 	<body>
-		<header>
-			<nav>		
-				<ul>
-					<li>
-						<a href="">Welcome</a>
+		<header id="yo" class="Header">
+			<nav class="MainMenu">
+				<!-- <div id="content">
+					<h1 class="fuente">MY PORTAFOLIO - Dany</h1>
+					<h2 class="fuente2">Six Bells Chime</h2>   
+				</div>		 -->		
+				<ul class="MainMenu-list"><!--Etiq Listas-->
+					<li class="MainMenu-item">
+						<a class="MainMenu-link" href="#yo">Yo</a>
 					</li>
-					<li>
-						<a href="">Habilidades</a>
+					<li class="MainMenu-item">
+						<a class="MainMenu-link" href="#perfil">Perfil</a>
 					</li>
-					<li>
-						<a href="">Portafolio</a>
+					<li class="MainMenu-item">
+						<a class="MainMenu-link" href="#trabajo">Trabajo</a>
 					</li>
-					<li>
-						<a href="">Contratame</a>
+					<li class="MainMenu-item">
+						<a class="MainMenu-link" href="#contacto">Contacto</a>
 					</li>
 				</ul>
 				<div class="ui-menu-bottom-line" style="width: 121px;"></div>
 			</nav>
+			<figure class="Header-imageContainer">
+				<img src="../static/images/avatar.png" alt="Avatar" class="Header-image"/>
+				<figcaption class="Header-imageDescription">
+					<a class="Header-link" href="https://twitter.com/daviheso" target="_black">@daviheso
+					</a>
+				</figcaption>
+				<p class="Header-name">Daniel Hernández</p>				
+			</figure>
 		</header>
+
+		<section id="perfil" class="Profile">
+			<div class="u-containerDefault">
+				<h2 class="Profile-title u-title">Mi perfil</h2>
+				<p class="Profile-description">
+					Hola! si <span class="Profile-span">llegaste</span>  hasta aqui, puedes ver mi Portafolio y contactarme
+				</p>
+				<a class="Profile-link" href="https://twitter.com/daviheso" target="_black">@daviheso</a>
+				<a class="Profile-link" href="https://www.facebook.com/daviheso" target="_black">Daniel Hernandez</a>
+				<a class="Profile-link" href="https://github.com/daguiheso" target="_black">daguiheso</a>		
+			</div>
+		</section>
+
+		<section id="trabajo" class="Work">
+			<div class="u-containerDefault">
+				<h2 class="Work-title u-title">Mi trabajo</h2>
+			</div>
+					
+		</section>
+
+		<footer id="contacto" class="Footer">
+			<div class="Footer-left">
+				<h3 class="Footer-title">Contacto</h3>
+				<p class="Footer-description">Si tienes una sugerencia o quieres trabajar con migo, ponte en contacto con este formulario.</p>
+			</div>			
+			<form class="Footer-form">
+				<input class="Footer-formInput" type="text" placeholder="Nombre"/>
+				<input class="Footer-formInput" type="email" placeholder="Email"/>
+				<textarea class="Footer-textarea" placeholder="Motivo"></textarea>
+				<button type="submit" class="Footer-button">Contactarme</button>
+			</form>
+		</footer>
 	</body>
 </html>
