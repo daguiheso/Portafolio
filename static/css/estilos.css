@@ -23,15 +23,18 @@ a{
 
 .MainMenu {
 	
-
-	background-image: url('../images/bg-nav.jpg');	
+	font-family: 'Anton';
+	font-size: 2em;
+	background: url('../images/imag.png') 0 -1145px;	
 	/*background: #1E1E1E;*/
 	text-align: center;
 	height: 3.75em;
 	position: fixed;
-	right: 0;
-	left: 0;
+	display: block;
+	right: 60px;	
 	top: 0;
+	width: 132px;
+	height: 278px;
 }
 
 .MainMenu li a:hover,
@@ -44,20 +47,20 @@ a{
 	padding: 0;
 }
 .MainMenu-item{
-	display: inline-block;
+	display: block;
+	height: 50px;
 	
 }
 
 .MainMenu-link{
-	color: #00DBFF;
+	color: rgb(102,102,102);
 	text-decoration: none;
 	line-height: 3.75em;  /*Centra los links con respecto al alto */
-	margin-right: 1.75em;
 }
 
 .Header{
 	
-	margin-top: 3.75em;
+	/*margin-top: 3.75em;*/
 	background-image: url('../images/bg.jpg');
 	background-repeat: no-repeat;
 	background-position: center;
