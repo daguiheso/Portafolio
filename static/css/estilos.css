@@ -4,6 +4,33 @@ a{
 }*/
 
 
+
+
+
+/*
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
 ::selection{
 	background: red;
 }
@@ -28,7 +55,7 @@ a{
 	background: url('../images/imag.png') 0 -1145px;	
 	/*background: #1E1E1E;*/
 	text-align: center;
-	height: 3.75em;
+	/*height: 3.75em;*/
 	position: fixed;
 	display: block;
 	right: 60px;	
@@ -45,6 +72,7 @@ a{
 .MainMenu-list{
 	margin: 0;
 	padding: 0;
+	height: 100%;
 }
 .MainMenu-item{
 	display: block;
@@ -227,21 +255,61 @@ a{
 	max-width:100%
 }*/
 
-@media screen and (max-width: 412px) {
-	.Profile-link {
-		display: inline-block;
-		margin: 0.4em;
+/*@media screen and (max-width: 800px) {
+	body{
+		background-color: red;
 	}
+}*/
+
+@media screen and (min-width: 900px) and (max-width: 1023px){
+	body{ 
+		background-color: red;
+	}
+}
+
+@media screen and (max-width: 768px){
+	.MainMenu {		
+		/*background: url('../images/bg-nav.jpg') repeat-x;*/
+		background: rgb(214,123,88);
+		font-size: 1em;	
+		text-align: center;		
+		left: 0;
+		width: 100%;		
+		height: 60px;
+		position: static;
+	}
+
+	.MainMenu-item{
+		display: inline-block;
+		height: 100%;
+	}
+
+	.Header{
+		padding: 0 0 1.2em 0;
+	}
+
+	.Header-imageContainer {		
+		padding-top: 1em;
+	}
+
+	.MainMenu-link{
+		line-height: 2.75em;
+		margin-left: 1em;
+		margin-right: 1em;
+		font-size: 1.5em;
+	}
+
+	
 }
 
 
 
-@media screen and (min-width: 800px){
+/*@media screen and (min-width: 800px){
 	body{
 		/*background: red;*/
 	}
 
-	#contenido .item{
+	/*#contenido .item{
 		width: 48%;
 		float:  left;				
 	}
@@ -415,4 +483,4 @@ a{
 	#main-nav li:nth-child(6)a:focus{
 		background:url('../img/gfx-sfda56717f1.png') 0 -4598px
 	}
-}
+}*/
