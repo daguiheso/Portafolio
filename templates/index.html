@@ -6,6 +6,7 @@
 		<meta name="viewport" content="width=device-width, minimum-scale=1,maximum-scale=1">
 		<link href="http://fonts.googleapis.com/css?family=Arizonia" rel="stylesheet" type="text/css">
 		<link href='http://fonts.googleapis.com/css?family=Anton' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Gloria+Hallelujah' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" type="text/css" href="../static/css/normalize.css">
 		<link rel="stylesheet" type="text/css" href="../static/css/estilos.css">
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
@@ -32,11 +33,7 @@
 				<!-- <div class="ui-menu-bottom-line" style="width: 121px;"></div> -->
 			</nav>
 			<figure class="Header-imageContainer">
-				<img src="../static/images/avatar.png" alt="Avatar" class="Header-image"/>
-				<figcaption class="Header-imageDescription">
-					<a class="Header-link" href="https://twitter.com/daviheso" target="_black">@daviheso
-					</a>
-				</figcaption>
+				<img src="../static/images/avatar.png" alt="Avatar" class="Header-image"/>			
 				<p class="Header-name">Daniel Hernández</p>				
 			</figure>
 		</header>
@@ -44,12 +41,28 @@
 		<section id="perfil" class="Profile">
 			<div class="u-containerDefault">
 				<h2 class="Profile-title u-title">Mi perfil</h2>
-				<p class="Profile-description">
-					Hola! si <span class="Profile-span">llegaste</span>  hasta aqui, puedes ver mi Portafolio y contactarme
-				</p>
-				<a class="Profile-link" href="https://twitter.com/daviheso" target="_black">@daviheso</a>
-				<a class="Profile-link" href="https://www.facebook.com/daviheso" target="_black">Daniel Hernandez</a>
-				<a class="Profile-link" href="https://github.com/daguiheso" target="_black">daguiheso</a>		
+				<div class="Profile-colum">
+				<h3 class="Profile-title">Programación</h3>
+				<ul class="Profile-list">
+					<ol class="Profile-item">Java Script</ol>
+					<ol class="Profile-item">C#</ol>
+					<ol class="Profile-item">Ruby on Rails</ol>
+					<ol class="Profile-item">Node.js</ol>
+					<ol class="Profile-item">Mysql</ol>
+					<ol class="Profile-item">SQLServer</ol>
+				</ul>
+				
+				</div>
+				<div class="Profile-colum">
+					<h3 class="Profile-title">Diseño Web</h3>
+					<ul class="Profile-list l">	
+						<ol class="Profile-item">HTML5</ol>
+						<ol class="Profile-item">CSS3</ol>
+						<ol class="Profile-item">Illustrator</ol>
+						<ol class="Profile-item">Response Design</ol>
+						<ol class="Profile-item">Experiencia del Usuario</ol>
+					</ul>
+				</div>							
 			</div>
 		</section>
 
@@ -60,17 +73,15 @@
 					
 		</section>
 
-		<footer id="contacto" class="Footer">
+		<footer id="contacto" class="Footer">			
 			<div class="Footer-left">
 				<h3 class="Footer-title">Contacto</h3>
-				<p class="Footer-description">Si tienes una sugerencia o quieres trabajar con migo, ponte en contacto con este formulario.</p>
-			</div>			
-			<form class="Footer-form">
-				<input class="Footer-formInput" type="text" placeholder="Nombre"/>
-				<input class="Footer-formInput" type="email" placeholder="Email"/>
-				<textarea class="Footer-textarea" placeholder="Motivo"></textarea>
-				<button type="submit" class="Footer-button">Contactarme</button>
-			</form>
+				<a class="Footer-link" href="https://twitter.com/daviheso" target="_black">@daviheso</a>
+				<a class="Footer-link" href="https://www.facebook.com/daviheso" target="_black">Daniel Hernandez</a>
+				<a class="Footer-link" href="https://github.com/daguiheso" target="_black">daguiheso</a>
+				<p class="Footer-description">Daniel Hernández - 3116710257</p>
+			</div>	
+			<p></p>							
 		</footer>
 	</body>
 </html>
