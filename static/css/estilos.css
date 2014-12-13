@@ -50,7 +50,7 @@ vertical-align: baseline;
 
 .MainMenu {
 	
-	font-family: 'Anton';
+	
 	font-size: 2em;
 	background: url('../images/imag.png') 0 -1145px;	
 	/*background: #1E1E1E;*/
@@ -84,6 +84,7 @@ vertical-align: baseline;
 	color: rgb(102,102,102);
 	text-decoration: none;
 	line-height: 3.75em;  /*Centra los links con respecto al alto */
+	font-family: 'Anton';
 }
 
 .Header{
@@ -270,18 +271,16 @@ vertical-align: baseline;
 @media screen and (max-width: 768px){
 	.MainMenu {		
 		/*background: url('../images/bg-nav.jpg') repeat-x;*/
-		background: rgb(214,123,88);
-		font-size: 1em;	
-		text-align: center;		
+		background: rgb(214,123,88);						
 		left: 0;
 		width: 100%;		
-		height: 60px;
-		position: static;
+		height: 1.38em;
+		position: fixed;
 	}
 
 	.MainMenu-item{
 		display: inline-block;
-		height: 100%;
+		height: 100%;		
 	}
 
 	.Header{
@@ -289,14 +288,20 @@ vertical-align: baseline;
 	}
 
 	.Header-imageContainer {		
-		padding-top: 1em;
+		padding-top: 5em;
 	}
 
 	.MainMenu-link{
-		line-height: 2.75em;
+		line-height: 1em;
 		margin-left: 1em;
 		margin-right: 1em;
-		font-size: 1.5em;
+		font-size: 0.6em;
+		font-family: 'Anton';
+	}
+
+	.MainMenu li a:hover,
+	.MainMenu li a:focus{
+		color:lightgray;
 	}
 
 	
