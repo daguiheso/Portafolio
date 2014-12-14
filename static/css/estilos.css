@@ -16,7 +16,7 @@
 }
 
 .MainMenu {	
-	font-size: 2em;
+	font-size: 1.8em;
 	background: url('../images/imag.png') 0 -1145px;	
 	/*background: #1E1E1E;*/
 	text-align: center;
@@ -49,6 +49,7 @@
 	text-decoration: none;
 	line-height: 3.75em;  /*Centra los links con respecto al alto */
 	font-family: 'Anton';
+	/*font-size: em;*/
 }
 
 .Header{	
@@ -93,8 +94,7 @@
 }
 
 
-.Profile-colum{
-	font-family: 'Gloria Hallelujah', cursive;
+.Profile-colum{	
 	display: inline-block;
 	/*background: blue;*/
 	vertical-align: top;
