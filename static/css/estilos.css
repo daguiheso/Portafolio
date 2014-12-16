@@ -185,6 +185,22 @@
 	font-style: italic;
 }
 
+#Work-imageCel{
+	background: url('../images/imag.png') 0 -1889px;
+	height: 16.8em;
+	width: 8.5em;
+	display: inline-block;
+	margin-right: 3em;
+}
+
+#Work-imageTab{
+	background: url('../images/imag.png') 0 -792px;
+	height: 22em;
+	width: 29em;
+	display: inline-block;
+	margin-right: 3em;
+}
+
 .Footer{	
 	background-color: rgb(214,123,88);
 	/*background-image: url('../images/bg_header1.jpg');*/
@@ -236,22 +252,11 @@
 }
 
 
-/*.ui-menu-bottom-line{
-	height:1px;
-	width:25px;
-	position:absolute;
-	left:0;
-	bottom:-1px;
-	background:red; 
-	
-	max-width:100%
-}*/
-
-/*@media screen and (max-width: 800px) {
+@media screen and (max-width: 300px) {
 	body{
 		background-color: red;
 	}
-}*/
+}
 
 @media screen and (min-width: 900px) and (max-width: 1023px){
 	/*body{ 
