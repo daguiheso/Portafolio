@@ -33,11 +33,6 @@
 	content: "\f00a";
 }
 
-
-
-
-
-
 ::selection{
 	background: red;
 }
@@ -48,25 +43,23 @@
 }
 
 .u-title{
-	color: rgb(219,52,44);
 	border-bottom: 2px dashed rgb(219,52,44);	
+	color: rgb(219,52,44);
 	font-weight: 400;
-	text-align: center;
 	padding-bottom: .5em;
+	text-align: center;
 }
 
 .MainMenu {	
-	font-size: 1.8em;
 	background: url('../images/imag.png') 0 -1145px;	
-	/*background: #1E1E1E;*/
-	text-align: center;
-	/*height: 3.75em;*/
-	position: fixed;
 	display: block;
+	font-size: 1.8em;
+	height: 278px;
+	position: fixed;
 	right: 60px;	
+	text-align: center;
 	top: 0;
 	width: 132px;
-	height: 278px;
 }
 
 .MainMenu li a:hover,
@@ -75,9 +68,9 @@
 }
 
 .MainMenu-list{
+	height: 100%;
 	margin: 0;
 	padding: 0;
-	height: 100%;
 }
 .MainMenu-item{
 	display: block;
@@ -86,19 +79,18 @@
 
 .MainMenu-link{
 	color: rgb(102,102,102);
-	text-decoration: none;
-	line-height: 3.75em;  /*Centra los links con respecto al alto */
 	font-family: 'Anton';
-	/*font-size: em;*/
+	line-height: 3.75em;  /*Centra los links con respecto al alto */
+	text-decoration: none;
 }
 
 .Header{	
 	background-image: url('../images/bg.jpg');
-	background-repeat: no-repeat;
 	background-position: center;
+	background-repeat: no-repeat;
 	background-size: cover;
-	text-align: center;
 	padding: 1.2em 0;
+	text-align: center;
 }
 
 .Header-imageContainer{
@@ -106,7 +98,6 @@
 }
 
 .Header-image{	
-	/*border: 5px solid white;*/
 	border-radius: 50%;
 	-webkit-transition: 1s;
 }
@@ -118,8 +109,8 @@
 }
 
 .Header-name{
-	font-family: 'Arizonia', cursive;	
 	color: rgba(219,52,44,0.7);
+	font-family: 'Arizonia', cursive;	
 	font-size: 2.5em;
 	font-weight: 600;
 	margin: 0;
@@ -133,12 +124,14 @@
 	margin-bottom: 2em;
 }
 
-
 .Profile-colum{	
 	display: inline-block;
-	/*background: blue;*/
+	margin-right: 4em;
 	vertical-align: top;
-	margin-left: 4em;
+}
+
+.Profile-colum:last-child{
+	margin-right: 0;	
 }
 
 .Profile-title{
@@ -146,18 +139,10 @@
 }
 
 .Profile-list{
-	text-align: left;
-	/*background: green;*/
-	/*display: inline-block;*/
-	padding: 0 1em;
 	margin: 0;
-
+	padding: 0 1em;
+	text-align: left;	
 }
-
-/*.l{
-	position: relative;
-	top: -2.2em;
-}*/
 
 .Profile-item{
 	padding: 0;
@@ -187,23 +172,22 @@
 
 #Work-imageCel{
 	background: url('../images/imag.png') 0 -1889px;
-	height: 16.8em;
-	width: 8.5em;
 	display: inline-block;
+	height: 16.8em;
 	margin-right: 3em;
+	width: 8.5em;
 }
 
 #Work-imageTab{
 	background: url('../images/imag.png') 0 -792px;
-	height: 22em;
-	width: 29em;
 	display: inline-block;
+	height: 22em;
 	margin-right: 3em;
+	width: 29em;
 }
 
 .Footer{	
 	background-color: rgb(214,123,88);
-	/*background-image: url('../images/bg_header1.jpg');*/
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;	
@@ -216,24 +200,24 @@
 }
 
 .Footer-description{
-	text-align: center;
 	font-size: 1.2em;
 	margin: 0 1em 1em 1em;
+	text-align: center;
 }
 
 .Footer-left{
 	display: inline-block;
+	margin-bottom: 1em;
 	max-width: 32em;
 	text-align: center;
 	vertical-align: top;	
-	margin-bottom: 1em;
 }
 
 .Footer-link{	
 	color: white;
-	text-decoration: none;
-	margin-right: .7em;
 	font-size: 2.5em;
+	margin-right: .7em;
+	text-decoration: none;
 }
 
 .icon-facebook:hover,
@@ -251,27 +235,20 @@
 	color: black;
 }
 
-
-@media screen and (max-width: 300px) {
-	body{
-		background-color: red;
+@media screen and (max-width: 900px){
+	.Profile{
+		max-width: 750px;
+		margin: 0 auto;
 	}
-}
-
-@media screen and (min-width: 900px) and (max-width: 1023px){
-	/*body{ 
-		background-color: red;
-	}*/
 }
 
 @media screen and (max-width: 768px){
 	.MainMenu {		
-		/*background: url('../images/bg-nav.jpg') repeat-x;*/
 		background: rgb(214,123,88);						
-		left: 0;
-		width: 100%;		
 		height: 1.9em;
+		left: 0;
 		position: fixed;
+		width: 100%;		
 	}
 
 	.MainMenu-item{
@@ -284,204 +261,45 @@
 	}
 
 	.Header-imageContainer {		
-		padding-top: 2em;
 		margin-top: 2.5em;
+		padding-top: 2em;
 	}
 
 	.MainMenu-link{
-		line-height: 1em;
-		margin-left: 1em;
-		margin-right: 1em;
-		font-size: 0.8em;
 		font-family: 'Anton';
+		font-size: 0.8em;
+		line-height: 1em;
+		padding: .45em 1em;
+		vertical-align: .19em;
 	}
 
 	.MainMenu li a:hover,
 	.MainMenu li a:focus{
 		color:lightgray;
 	}
-	
+
+	.Profile{
+		max-width: 640px;
+		margin: 0 auto;
+	}
+}
+
+@media screen and (max-width: 767px){
+	.Profile{
+		margin: 0 auto;
+		max-width: 700px;
+	}
+
+	.MainMenu-link{
+		padding: .45em .5em;		
+	}
+}
+
+@media screen and (max-width: 605px){
+	.Profile-colum:last-child{		
+		margin-top: 1em;
+	}
 }
 
 
 
-/*@media screen and (min-width: 800px){
-	body{
-		/*background: red;*/
-	}
-
-	/*#contenido .item{
-		width: 48%;
-		float:  left;				
-	}
-
-	#contenido{
-		overflow: hidden;
-	}
-
-	#contenido .item:nth-child(odd){		
-		margin-right: 2%;
-	}
-}
-
-
-
-
-
-
-#main-nav{
-	position:fixed;
-	z-index:1000
-}
-
-@media screen and (max-width: 420px){
-	#main-nav li:first-child{
-		display:none
-	}
-	#main-nav li a{
-		font-size:0.875em;
-		padding:0.3em
-	}
-}
-
-@media screen and (min-width: 421px) and (max-width: 480px){
-	#main-nav li a{
-		font-size:1em;padding:0.3em
-	}
-}
-
-@media screen and (min-width: 481px) and (max-width: 540px){
-	#main-nav li a{
-		font-size:1em;
-		padding:0.5em
-	}
-}
-
-@media screen and (min-width: 541px) and (max-width: 849px){
-	#main-nav li a{
-		font-size:1.125em;
-		padding:0.5em
-	}
-}
-
-@media screen and (max-width: 849px){
-	#main-nav{
-		top:0;
-		left:0;
-		width:100%;
-		background:url("../img/bg-nav.jpg") repeat-x 0 100%;
-		text-align:center
-	}
-	#main-nav li{
-		display:-moz-inline-box;
-		-moz-box-orient:vertical;
-		display:inline-block;
-		vertical-align:middle;
-		*vertical-align:auto
-	}
-	#main-nav li{
-		*display:inline
-	}
-	#main-nav li a{
-		display:-moz-inline-box;
-		-moz-box-orient:vertical;
-		display:inline-block;
-		vertical-align:middle;
-		*vertical-align:auto;
-		color:#555;
-		text-transform:uppercase;
-		font-family:"futura-pt",sans-serif;
-		text-shadow:#c8bbb1 1px 1px 0,#808285 2px 2px 0;
-		text-decoration:none
-	}
-	#main-nav li a{
-		*display:inline
-	}
-	#main-nav li a:hover,
-	#main-nav li a focus{
-		color:#da7a7a
-	}
-}
-
-@media screen and (min-width: 850px){
-	#main-nav{
-		position:fixed;
-		z-index:1000;
-		top:0;
-		right:5%;
-		display:block;
-		background:url('../img/gfx-sfda56717f1.png') 0 -1145px;
-		width:132px;
-		height:278px
-	}
-	#main-nav li:nth-child(1) a{
-		display:block;
-		background:url('../img/gfx-sfda56717f1.png') 0 -3980px;
-		width:132px;
-		height:61px;
-		text-indent:-2007px;
-		overflow:hidden
-	}
-	#main-nav li:nth-child(1) a:hover,
-	#main-nav li:nth-child(1) a:focus{
-		background:url('../img/gfx-sfda56717f1.png') 0 -4219px
-	}
-	#main-nav li:nth-child(2) a{
-		display:block;
-		background:url('../img/gfx-sfda56717f1.png') 0 -6001px;
-		width:132px;
-		height:28px;
-		text-indent:-2007px;
-		overflow:hidden
-	}
-	#main-nav li:nth-child(2) a:hover,
-	#main-nav li:nth-child(2) a:focus{
-		background:url('../img/gfx-sfda56717f1.png') 0 -6029px
-	}
-	#main-nav li:nth-child(3) a{
-		display:block;
-		background:url('../img/gfx-sfda56717f1.png') 0 -5505px;
-		width:132px;
-		height:35px;
-		text-indent:-2007px;
-		overflow:hidden
-	}
-	#main-nav li:nth-child(3) a:hover,
-	#main-nav li:nth-child(3) a:focus{
-		background:url('../img/gfx-sfda56717f1.png') 0 -5733px
-	}
-	#main-nav li:nth-child(4) a{
-		display:block;
-		background:url('../img/gfx-sfda56717f1.png') 0 -5338px;
-		width:132px;
-		height:35px;
-		text-indent:-2007px;
-		overflow:hidden
-	}
-	#main-nav li:nth-child(4) a:hover,
-	#main-nav li:nth-child(4) a:focus{
-		background:url('../img/gfx-sfda56717f1.png') 0 -5698px
-	}
-	#main-nav li:nth-child(5) a{
-		display:block;
-		background:url('../img/gfx-sfda56717f1.png') 0 -4976px;
-		width:132px;
-		height:40px;text-indent:-2007px;
-		overflow:hidden
-	}
-	#main-nav li:nth-child(5) a:hover,
-	#main-nav li:nth-child(5) a:focus{
-		background:url('../img/gfx-sfda56717f1.png') 0 -5298px
-	}
-	#main-nav li:nth-child(6) a{
-		display:block;
-		background:url('../img/gfx-sfda56717f1.png') 0 -4454px;
-		width:132px;height:49px;
-		text-indent:-2007px;
-		overflow:hidden
-	}
-	#main-nav li:nth-child(6) a:hover,
-	#main-nav li:nth-child(6)a:focus{
-		background:url('../img/gfx-sfda56717f1.png') 0 -4598px
-	}
-}*/
