@@ -38,7 +38,7 @@
 }
 
 .u-containerDefault{
-	max-width: 800px;
+	/*max-width: 800px;*/
 	margin: 0 auto;
 }
 
@@ -126,13 +126,14 @@
 
 .Profile-colum{	
 	display: inline-block;
-	margin-right: 4em;
+	padding: 2em;
+	/*margin-right: 4em;*/
 	vertical-align: top;
 }
 
-.Profile-colum:last-child{
+/*.Profile-columDw{
 	margin-right: 0;	
-}
+}*/
 
 .Profile-title{
 	margin: 0.5em;
@@ -235,14 +236,23 @@
 	color: black;
 }
 
-@media screen and (max-width: 900px){
+@media screen and (max-width: 1024px){
 	.Profile{
-		max-width: 750px;
+		max-width: 800px;
 		margin: 0 auto;
-	}
+	}	
 }
 
 @media screen and (max-width: 768px){
+	.Profile{
+		max-width: 600px;
+		margin: 0 auto;
+	}
+
+	.Profile-colum{
+		padding: 1em
+	}
+
 	.MainMenu {		
 		background: rgb(214,123,88);						
 		height: 1.9em;
@@ -276,15 +286,10 @@
 	.MainMenu li a:hover,
 	.MainMenu li a:focus{
 		color:lightgray;
-	}
-
-	.Profile{
-		max-width: 640px;
-		margin: 0 auto;
-	}
+	}	
 }
 
-@media screen and (max-width: 767px){
+/*@media screen and (max-width: 767px){
 	.Profile{
 		margin: 0 auto;
 		max-width: 700px;
@@ -293,11 +298,27 @@
 	.MainMenu-link{
 		padding: .45em .5em;		
 	}
+}*/
+
+@media screen and (max-width: 620px){
+	.Profile{
+		max-width: 400px;
+		margin: 0 auto;
+	}
+	.MainMenu-link{
+		padding: .45em .4em		
+	}	
 }
 
-@media screen and (max-width: 605px){
-	.Profile-colum:last-child{		
-		margin-top: 1em;
+
+
+@media screen and (max-width: 480px){
+	.Profile{
+		max-width: 320px;
+		margin: 0 auto;
+	}
+	.MainMenu-link{
+		padding: .45em .14em		
 	}
 }
 
