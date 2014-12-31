@@ -17,7 +17,6 @@
 	font-variant: normal;
 	text-transform: none;
 	line-height: 1;
-
 	/* Better Font Rendering =========== */
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
@@ -32,16 +31,13 @@
 .icon-github:before {
 	content: "\f00a";
 }
-
 ::selection{
 	background: red;
 }
-
 .u-containerDefault{
 	/*max-width: 800px;*/
 	margin: 0 auto;
 }
-
 .u-title{
 	border-bottom: 2px dashed rgb(219,52,44);	
 	color: rgb(219,52,44);
@@ -49,7 +45,6 @@
 	padding-bottom: .5em;
 	text-align: center;
 }
-
 .MainMenu {	
 	background: url('../images/imag.png') 0 -1145px;	
 	display: block;
@@ -61,7 +56,6 @@
 	top: 0;
 	width: 132px;
 }
-
 .MainMenu li a:hover,
 .MainMenu li a:focus{
 	color:#da7a7a
@@ -76,14 +70,12 @@
 	display: block;
 	height: 50px;	
 }
-
 .MainMenu-link{
 	color: rgb(102,102,102);
 	font-family: 'Anton';
 	line-height: 3.75em;  /*Centra los links con respecto al alto */
 	text-decoration: none;
 }
-
 .Header{	
 	background-image: url('../images/bg.jpg');
 	background-position: center;
@@ -92,22 +84,18 @@
 	padding: 1.2em 0;
 	text-align: center;
 }
-
 .Header-imageContainer{
 	margin: 0;
 }
-
 .Header-image{	
 	border-radius: 50%;
 	-webkit-transition: 1s;
 }
-
 .Header-image:hover{	
 	border: 7px solid white;
 	border-color: orange;
 	-webkit-transform: rotateY(360deg);
 }
-
 .Header-name{
 	color: rgba(219,52,44,0.7);
 	font-family: 'Arizonia', cursive;	
@@ -115,62 +103,49 @@
 	font-weight: 600;
 	margin: 0;
 }
-
 .Profile{
 	text-align: center;
+	padding: 0 2.5em;
 }
-
 .Profile-description {
 	margin-bottom: 2em;
 }
-
 .Profile-colum{	
 	display: inline-block;
 	padding: 2em;
 	/*margin-right: 4em;*/
 	vertical-align: top;
 }
-
-/*.Profile-columDw{
-	margin-right: 0;	
-}*/
-
 .Profile-title{
 	margin: 0.5em;
 }
-
 .Profile-list{
 	margin: 0;
 	padding: 0 1em;
 	text-align: left;	
 }
-
 .Profile-item{
 	padding: 0;
 }
 
-
 .Work{
 	margin-top: 2em;
 	text-align: center;
+	padding: 0 2.5em;
 }
-
 .Work-item{
 	display: inline-block;
 	margin-right: 1.8em;
 	margin-bottom: 1.8em;
 }
-
 .Work-imageContainer{
 	margin: 0;
 }
-
 .Work-description{
 	color: #515151;
 	font-size: 1.1em;
 	font-style: italic;
 }
-
 #Work-imageCel{
 	background: url('../images/imag.png') 0 -1889px;
 	display: inline-block;
@@ -178,7 +153,6 @@
 	margin-right: 3em;
 	width: 8.5em;
 }
-
 #Work-imageTab{
 	background: url('../images/imag.png') 0 -792px;
 	display: inline-block;
@@ -186,7 +160,6 @@
 	margin-right: 3em;
 	width: 29em;
 }
-
 .Footer{	
 	background-color: rgb(214,123,88);
 	background-repeat: no-repeat;
@@ -194,65 +167,44 @@
 	background-size: cover;	
 	text-align: center;	
 }
-
 .Footer-title{
 	color: white;
 	margin-bottom: 0;
 }
-
 .Footer-description{
 	font-size: 1.2em;
 	margin: 0 1em 1em 1em;
 	text-align: center;
-}
-
-.Footer-left{
+}.Footer-left{
 	display: inline-block;
 	margin-bottom: 1em;
 	max-width: 32em;
 	text-align: center;
 	vertical-align: top;	
-}
-
-.Footer-link{	
+}.Footer-link{	
 	color: white;
 	font-size: 2.5em;
 	margin-right: .7em;
 	text-decoration: none;
 }
-
 .icon-facebook:hover,
 .icon-facebook:hover {
 	color: rgb(59,87,157);
 }
-
 .icon-twitter:hover,
 .icon-twitter:hover {
 	color: rgb(26,178,232);
 }
-
 .icon-github:hover,
 .icon-github:hover {
 	color: black;
 }
 
-@media screen and (max-width: 1024px){
-	.Profile{
-		max-width: 800px;
-		margin: 0 auto;
-	}	
-}
-
 @media screen and (max-width: 768px){
-	.Profile{
-		max-width: 600px;
-		margin: 0 auto;
-	}
-
+	
 	.Profile-colum{
 		padding: 1em
 	}
-
 	.MainMenu {		
 		background: rgb(214,123,88);						
 		height: 1.9em;
@@ -260,21 +212,17 @@
 		position: fixed;
 		width: 100%;		
 	}
-
 	.MainMenu-item{
 		display: inline-block;
 		height: 100%;		
 	}
-
 	.Header{
 		padding: 0 0 1.2em 0;
 	}
-
 	.Header-imageContainer {		
 		margin-top: 2.5em;
 		padding-top: 2em;
 	}
-
 	.MainMenu-link{
 		font-family: 'Anton';
 		font-size: 0.8em;
@@ -282,43 +230,30 @@
 		padding: .45em 1em;
 		vertical-align: .19em;
 	}
-
 	.MainMenu li a:hover,
 	.MainMenu li a:focus{
 		color:lightgray;
 	}	
 }
 
-/*@media screen and (max-width: 767px){
-	.Profile{
-		margin: 0 auto;
-		max-width: 700px;
-	}
-
-	.MainMenu-link{
-		padding: .45em .5em;		
-	}
-}*/
-
-@media screen and (max-width: 620px){
-	.Profile{
-		max-width: 400px;
-		margin: 0 auto;
-	}
+@media screen and (max-width: 620px){		
 	.MainMenu-link{
 		padding: .45em .4em		
 	}	
+	#Work-imageTab{
+		display: none;
+	}
 }
 
-
-
-@media screen and (max-width: 480px){
-	.Profile{
-		max-width: 320px;
-		margin: 0 auto;
+@media screen and (max-width: 480px){	
+	.MainMenu{
+		font-size: 1.6em;
 	}
 	.MainMenu-link{
 		padding: .45em .14em		
+	}
+	#Work-imageTab{
+		display: none;
 	}
 }
 
