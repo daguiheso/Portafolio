@@ -157,7 +157,7 @@
 	background: url('../images/imag.png') 0 -792px;
 	display: inline-block;
 	height: 22em;
-	margin-right: 3em;
+	/*margin-right: 3em;*/
 	width: 29em;
 }
 .Footer{	
