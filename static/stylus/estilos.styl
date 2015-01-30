@@ -53,6 +53,7 @@
 
 .MainMenu li a:hover,
 .MainMenu li a:focus
+  color #da7a7a
 
 .MainMenu-list
   height 100%
@@ -152,7 +153,6 @@
   background url('../images/imag.png') 0 -792px
   display inline-block
   height 22em
-  // margin-right 3em
   width 29em
   display none
   display none
@@ -201,12 +201,14 @@
       (max-width
         &:
           768px)
+            .Profile-colum
+    padding 1em
 
 .MainMenu li a:hover,
-	.MainMenu li a:focus
+  .MainMenu li a:focus
   color lightgray
 
-}
+
   @media
     screen
       and
@@ -214,6 +216,6 @@
           &:
             620px)
             480px)
-              .MainMenu{
-		font-size 1.6em
+              .MainMenu
+    font-size 1.6em
 
