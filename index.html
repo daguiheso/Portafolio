@@ -9,8 +9,6 @@
 		<link href='http://fonts.googleapis.com/css?family=Merriweather:300' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" type="text/css" href="static/css/normalize.css">
 		<link rel="stylesheet" type="text/css" href="static/css/estilos.css">
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-		<script src="static/js/jquery.lettering.js"></script>
 	</head>
 	<body>
 		<header id="yo" class="Header">
@@ -81,7 +79,32 @@
 						<ol class="Profile-item texto">Usabilidad</ol>
 					</ul>
 				</div>	
-				<p class="texto">Actualmente, las tecnologías y lenguajes en las que me encuentro enfocado son NodeJS, HTML5, JavaScript y AngularJS.</p>						
+				<p class="texto">Actualmente, las tecnologías y lenguajes en las que me encuentro enfocado son NodeJS, HTML5, JavaScript y AngularJS.</p>
+				<div class="Nav-images container">
+				  <div class="itemm"><img src="static/images/html5.png"></div>
+				  <div class="itemm w2"><img src="static/images/html5.png"></div>
+				  <div class="itemm w2"></div>
+				  <div class="itemm w2 h4"></div>
+				  <div class="itemm w2 h2"></div>
+				  <div class="itemm w2"></div>
+				  <div class="itemm w2 h3"></div>
+				  <div class="itemm w4"></div>
+				  <div class="itemm w2"></div>
+				  <div class="itemm w2 h4"></div>
+				  <div class="itemm w2"></div>
+				  <div class="itemm w2 h4"></div>
+				  <div class="itemm w4"></div>
+				  <div class="itemm w2 h5"></div>
+				  <div class="itemm w4"></div>
+				  <div class="itemm w2"></div>
+				  <div class="itemm w2 h4"></div>
+				  <div class="itemm w2"></div>
+				  <div class="itemm w2 h5"></div>
+				  <div class="itemm w2"></div>
+				  <div class="itemm w2 h3"></div>
+				  <div class="itemm w4"></div>
+				  <div class="itemm w2"></div>
+				</div>						
 			</div>
 		</section>
 
@@ -106,5 +129,17 @@
 				<a class="Footer-link icon-github" href="https://github.com/daguiheso" target="_black"></a>
 			</div>											
 		</footer>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+		<script src="static/js/jquery.lettering.js"></script>
+		<script src="static/js/masonry.js"></script>
+		<script src="static/js/masonry.pkgd.min.js"></script>
+		<script>
+		docReady( function() {
+		  var msnry = new Masonry( '.container', {
+		    isFitWidth: true,
+		    columnWidth: 120
+		  });
+		});
+		</script>
 	</body>
 </html>
